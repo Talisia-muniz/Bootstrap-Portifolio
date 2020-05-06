@@ -1,0 +1,57 @@
+.bg-roxo{
+    background-color: #7E459B;
+}
+.botao{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+ hover{
+    font-weight:bold;
+}
+.imagem-carousel{
+object-fit:cover;
+object-position:0 40%;
+width: 100%;
+height: 65vh;
+}
+.link-sobre{
+    color:#7E459B
+}
+.link-sobre:hover{
+    color:#7E459B
+}
+.redes-sociais i{
+    font-size:1.6rem;
+}
+.font-roxo{
+    color :rgb(75,38,94);
+}
+button{
+    width:100px;
+}
+button:hover{
+    opacity:.9
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
