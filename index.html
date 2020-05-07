@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+gi<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21,19 +21,21 @@
       <div class="collapse navbar-collapse  justify-content-end" id="menudesktop">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Habilidades</a>
+            <a class="nav-link text-white" href="#habilidades">Habilidades</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Sobre</a>
+            <a class="nav-link text-white" href="#sobre">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Portifólios</a>
+            <a class="nav-link text-white" href="#Portifólios">Portifólios</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
   <header>
+    <!--titulo-->
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -64,31 +66,32 @@
       </div>
 
   </header>
+  <!--Titulo-->
 
-  <section class="text-center my-4">
-    <div class="container text-center">
-      <h3 class="font-roxo font-weight-bold">Talisia</h3>
-      <h5 class="font-roxo font-Weight-light-m-2 font-roxo"> Desenvolvedora-front-end</h5>
-      <div class="d-flex flex-column flex-md-row justify-content-md-around redes-sociais ">
+  <section id="sobre" class="text-center my-4">
 
-        <a href="https://github.com/Talisia-muniz" target="_blank">
-          <i class="fab fa-github-square"></i>
-          <span endereço de git hub></span>
+    <h3 class="font-roxo font-weight-bold">Talisia</h3>
+    <h5 class="font-roxo font-Weight-light-m-2 font-roxo"> Desenvolvedora-front-end</h5>
+
+    <div class="d-flex flex-column flex-md-row justify-content-md-around redes-sociais ">
+
+      <a href="https://github.com/Talisia-muniz" target="_blank">
+        <i class="fab fa-github-square"></i>
+        <span endereço de git hub></span>
+      </a>
+      <a href="https://www.linkedin.com/in/talisia-muniz-b5237489/ " target="=_blank">
+        <i class="fab fa-linkedin icon mb-3"></i>
+        <span endereço de linkedin></span>
+        <a href="mailto: taliscorretora@hotmail.com" targe="_blank">
+          <i class="fab fa-envelope-square talisia-muniz-b5237489"></i>
+          <span>taliscorretora@hotmail.com</span>
         </a>
-        <a href="https://www.linkedin.com/in/talisia-muniz-b5237489/ " target="=_blank">
-          <i class="fab fa-linkedin icon mb-3"></i>
-          <span endereço de linkedin></span>
-          <a href="mailto: taliscorretora@hotmail.com" targe="_blank">
-            <i class="fab fa-envelope-square talisia-muniz-b5237489"></i>
-            <span>taliscorretora@hotmail.com</span>
-          </a>
-      </div>
     </div>
   </section>
   <!--icones-->
   <section class="bg-roxo text-white d-flex flex-column flex-lg-row justify-content-lg-around p-4">
 
-    <div class="habilidades  w-100">
+    <div class=" habilidades  w-100">
 
       <h2 class="text-center">Habilidades</h2>
 
@@ -140,53 +143,145 @@
       </div>
     </div>
 
-    <div class="sobre text-center w-100">
+    <div class="  sobre text-center w-100">
       <h2>Sobre</h2>
-      <p class="pt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur tempore laborum repellat
-        saepe, voluptas
-        ipsum porro voluptate quibusdam aliquid aliquam error laboriosam exercitationem ullam eaque totam vitae cumque
-        similique eum.</p>
+      <p class="pt-3"> Eu Talisia 47 anos,após ter trabalhado 20 anos em uma única enpresa,
+        e ter feito varias tentativas de transição de area ingressei na area de programção por incentivo
+        dos filhos e foi muito desafiador,e logo no inicio nos deparamos com a pandemia,o curso que seria presencial
+        tornou-se on line,desde então aumentaram-se os desafios mas até aqui esta dando certo as experiência,agradeço as
+        colegas e as professoras pelo apoio e incentivo.
+        projeto portif´lio estou aprendendo com a Prof Emanuelle Maia.</p>
+
     </div>
   </section>
 
+  <!-- CARDS E MODAIS -->
 
-<!-- CARDS E MODAIS -->
+  <section class="diva mãe_carditle text-center mt-5">
+    <section class="row justify-content-around mb-5 mobal-cards">
+      <h2>Portifólio</h2>
+      <div class="card m-5" style="width: 18rem;">
+        <img class="card-img-top container  img-card--1" src="card2.png" alt="Projeto-M-de-Maravilhosa">
 
-<section class=" modal-cards">
-          <!--card 1-->
-          <div class="card m-5" style="width: 18rem;">
-            <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
-            <div class="card-body text-center">
-              <h5 class="card-title">nome do projeto</h5>
-              <p class="card-text"> resumo do projeto</p>
+        <div class="card-body text-center">
+          <h5 class="card-title"> M- de-Maravilhosa</h5>
+          <p class="card-text"> Este foi o primeiro projeto realizado individual,primeiro desafio
+            de colocar em prática o aprendizado com Htmlt e Css ,a minha homenagem foi a Margareth Hamilton
+            a primeira mulher programadora fiquei bem motivada com sua história,a prfessora da semana foi Priscila .
+          </p>
+        </div>
+        <button type="button" class="m-5 btn bg-roxo text-white m-auto" data-toggle="#modal1" data-target="#modal1">
+          Veja mais
+        </button>
+
+      </div>
+
+      <section class=modal <!-- Modal -->
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="#modal1" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal1">projeto nome </h5>
+                <button type="button" class="close" data-dismiss="#modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p></p>
+              </div>
+              <div class="modal footer>
+            <button type=" button" class=" btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <a href="#" target="blank" class="btn bg-roxo" text-white">Ver pagina</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+        <!--card 2-->
+        <section>
+        <div class="card m-5" style="width: 18rem;">
+          <img class="card-img-top" src="card1.png" alt="Imagem de capa do card">
+          <div class="card-body text-center">
+            <h5 class="card-title">To-Do-List</h5>
+            <p class="card-text">Este foi o segundo projeto realizado usando agora Javascript,
+              realizado em dupla mas obtive a ajuda
+              de varias colegas,criamos uma lista de tarefas,criamos botões onde ao clicar adicionava,
+              marcava como feito,e também excluia as tarefas,
+              Professora da semana foi Barbara-Aguilar em meio a pandemia foi desafiador perseverar ate aqui .</p>
+
+          </div>
+          <button type="button" class="btn bg-roxo text-white m-auto" data-toggle="#modal2" data-target="#modal2">
+            Veja mais
+          </button>
+        </div>
+      </section>
+
+      <section class=modal <!-- Modal -->
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="#modal2" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal1">Projeto nome</h5>
+                <button type="button" class="close" data-dismiss="#moda3" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Aqui descrição do projet</p>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="#modal2">Close</button>
+                <a href="#" target="blank class=btn bg-roxo text-white">Ver pagina</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="card m-5" style="width: 18rem;">
+        <img class="card-img-top" src="foto-banner.jpg" alt="Imagem de capa do card">
+        <div class="card-body text-center">
+          <h5 class="card-title">nome do projeto</h5>
+          <p class="card-text"> resumo do projeto</p>
+
+        </div>
+        <button type="button" class="btn bg-roxo text-white m-auto" data-toggle="#moda3" data-target="#modal3">
+          Veja mais
+        </button>
+      </div>
+    </section>
+    <section class=modal <!-- Modal -->
+      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="#modal1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal1">Projeto nome</h5>
+              <button type="button" class="close" data-dismiss="#modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Aqui descrição do projet</p>
 
             </div>
-            <button type="button" class="btn bg-roxo text-white" data-toggle="modal1" data-target="modal1">
-              Veja mais
-            </button>
-          </div>
-  </section>
-  <section class=modal <!-- Modal -->
-    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="#modal1" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="modal1">Modal title</h5>
-            <button type="button" class="close" data-dismiss="#modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>Aqui descrição do projet
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="#modal1">Close</button>
 
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="#modal1">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+              <a href="#" target="blank" class="btn bg-roxo text white">ver pagina</a>
+
+            </div>
           </div>
         </div>
       </div>
-    </div>
+
+    </section>
+  </section>
+  <footer class="bg-roxo footer mt-auto py-3 text-center text-white">
+    <p>
+      Feito por Talisia-muniz, enquanto aluna da {Reprogram} bootcamp presencial sendo online em meio a pandemia
 
 
 
@@ -195,9 +290,12 @@
 
 
 
-    <script src="./js/jquery-3.4.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/4fe8d55b33.js" crossorigin="anonymous"></script>
+
+
+
+      <script src="./js/jquery-3.4.1.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+      <script src="https://kit.fontawesome.com/4fe8d55b33.js" crossorigin="anonymous"></script>
 </body>
 
-</html
+</html>
